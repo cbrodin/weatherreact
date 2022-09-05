@@ -8,9 +8,7 @@ export default function App() {
         <p>
           <ul href="https://github.com/cbrodin/weatherreact">
             Open-sourced code
-          </ul>
-          , by{" "}
-          <ul href="https://www.instagram.com/atxxchels/">Chelsea Brodin</ul>
+            </ul>  , by Chelsea Brodin
         </p>
       </header>
     </div>
