@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
-export default function App() {
+export default function Main() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="Main">
+      <div className="Main-header">
         <p>
           <ul href="https://github.com/cbrodin/weatherreact">
             Open-sourced code
             </ul>  , by Chelsea Brodin
         </p>
-      </header>
+      </div>
     </div>
   );
 }

@@ -7,11 +7,13 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <div>
+        <Weather />
+      </div>
+      <Main />
     </div>
   );
 }
-<Main />
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
