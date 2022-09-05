@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Weather from "./Weather.js";
+import Main  from "./Main";
 
 import "./styles.css";
 function App() {
@@ -10,6 +11,7 @@ function App() {
     </div>
   );
 }
+<Main />
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
