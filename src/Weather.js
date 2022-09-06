@@ -47,13 +47,13 @@ export default function Weather() {
                 </div>
                 <div className="col">
                   <h2>
-                    <img /> <span></span>
+                    <img alt="Weather Icon"/> <span></span>
                   </h2>
                   <span></span>
-                  <a href="#" className="active">
+                  <button href="#" className="active">
                     {" "}
                     {weatherData.faren} °F{" "}
-                  </a>
+                  </button>
                   <span className="barrier"> | </span>
                   <a href="#">{weatherData.cel} °C</a>
                   <p>
