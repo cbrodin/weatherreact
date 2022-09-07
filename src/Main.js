@@ -1,4 +1,5 @@
-import './App.css';
+import React from "react";
+import "./App.css";
 
 export default function Main() {
   return (
@@ -7,10 +8,10 @@ export default function Main() {
         <p>
           <ul href="https://github.com/cbrodin/weatherreact">
             Open-sourced code
-            </ul>  , by Chelsea Brodin
+          </ul>{" "}
+          , by Chelsea Brodin
         </p>
       </div>
     </div>
   );
 }
-
