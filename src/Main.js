@@ -6,10 +6,7 @@ export default function Main() {
     <div className="Main">
       <div className="Main-header">
         <p>
-          <ul href="https://github.com/cbrodin/weatherreact">
-            Open-sourced code
-          </ul>{" "}
-          , by Chelsea Brodin
+          <a href="https://github.com/cbrodin/weatherreact">Open-sourced code</a>, by Chelsea Brodin
         </p>
       </div>
     </div>
